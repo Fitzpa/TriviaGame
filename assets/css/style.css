@@ -2,6 +2,7 @@
 body {
   color: #000000;
   font-family: 'Lato', sans-serif;
+  text-shadow: white 0px 0px 10px;
 }
 
 #background {
@@ -34,7 +35,7 @@ body {
   margin: 0;
 }
 
-/* Needed to keep progress bar in consistent position at bottom without fixing its position. Fixed does not work correctly with smaller media. */
+/* Needed to keep progress bar in consistent position at bottom without fixing its position.*/
 #main-content {
   min-height: 80vh;
 }
@@ -78,17 +79,18 @@ body {
 
 #yes, #correct {
   color: #000000;
-  
+  text-shadow: white 0px 0px 10px;
 }
 
 #no, #incorrect {
-  color: #ff0900;
+  color: #000000;
+  
 }
 
-#gif {
-  height: 30rem;
+#jpg {
+  height: 100%;
   margin-top: 5%;
-  width: 40rem;
+  width: 50rem;
 }
 
 #progress-col{
@@ -99,6 +101,7 @@ body {
   border: solid .1rem #000000;
   height: 3.2rem;
   margin-bottom: 0;
+  text-shadow: white 0px 0px 10px;
 }
 
 .progress-bar {
